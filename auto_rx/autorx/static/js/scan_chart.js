@@ -45,7 +45,7 @@ function setup_scan_chart(){
 	    axis:{
 	        x:{
 	            tick:{
-	                format: function (x) { return x.toFixed(3); }
+			fit: false
 	            },
 	            label:"Frequency (MHz)"
 	        },
